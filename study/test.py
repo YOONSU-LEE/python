@@ -104,3 +104,34 @@ x = dict()
 y = {}
 
 
+#dictionary
+x = {
+  0 : "Yoonsu",
+  1 : "Hello",
+  "age" : 20,
+}
+
+print(x. keys())
+print(x.values())
+
+#엘리먼트 반복해서 돌아보기
+for key in x:
+  print("key:" + str(key))
+  print("value:" + str(x[key]))
+
+#dictionary도 key, value 둘다 assignment 가능
+
+
+#예제
+fruit = ["사과","사과","바나나","바나나","딸기","딸기","키위","복숭아","복숭아","복숭아",]
+d = {}
+
+
+for f in fruit:
+  if f in d:
+    d[f] = d[f] + 1
+  else:
+      d[f] = 1
+
+print(d)
+
